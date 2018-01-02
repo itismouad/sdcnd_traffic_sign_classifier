@@ -1,9 +1,9 @@
 # Traffic Sign Classification
 
-[//]: # (Source Images)
+[//]: # (Image References)
 
-[demo_new_images]: ./images/demo_new_images.png "Demo new Images"
-[train_valid_acc_epoch]: ./images/train_valid_acc_epoch.png "AWS Train Curve"
+[demo_new_images]: ./images/demo_new_images.png "Demo New Images"
+[train_valid_acc_epoch]: ./images/train_valid_acc_epoch.png "Train and Validation Accuracy Curves"
 
 
 ## Overview
