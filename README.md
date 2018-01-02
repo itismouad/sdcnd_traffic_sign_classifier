@@ -16,7 +16,9 @@ In this project, we will see how deep neural networks and convolutional neural n
 You will find the code - using Tensorflow - for this project is in the [IPython Notebook](https://github.com/itismouad/sdcnd_traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.ipynb). More details are available by reading the project [notes](https://github.com/itismouad/sdcnd_traffic_sign_classifier/blob/master/writeup.md).
 
  
-## The final model architecture :
+
+### The final model architecture :
+
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -29,18 +31,20 @@ You will find the code - using Tensorflow - for this project is in the [IPython 
 | Max pooling	      	| 2x2 stride, valid padding, outputs 5x5x16  	|
 | Fully connected		| 400 input, 120 output     					|
 | RELU activation       |                                               |
-| Dropout               | 0.6 keep probablility (training)              |
+| Dropout               | 0.9 keep probablility (training)              |
 | Fully connected		| 120 input, 84 output     				     	|
 | RELU activation       |                                               |
-| Dropout               | 0.6 keep probablility (training)              |
+| Dropout               | 0.9 keep probablility (training)              |
 | Fully connected		| 84 input, 43 output     				     	|
 
 
-## The final model metrics :
 
-- Training Set Accuracy: 0.9764310717582703
-- Validation Set Accuracy: 0.9523809552192688
-- Test Set Accuracy: 0.93087885996130659
+### The final model metrics :
+
+
+- Training Set Accuracy: **0.9764310717582703**
+- Validation Set Accuracy: **0.9523809552192688**
+- Test Set Accuracy: **0.93087885996130659**
 
 ![alt text][train_valid_acc_epoch]
 
