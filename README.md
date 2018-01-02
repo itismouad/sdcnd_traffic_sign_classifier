@@ -6,18 +6,17 @@
 [train_valid_acc_epoch]: ./images/train_valid_acc_epoch.png "AWS Train Curve"
 
 
-Overview
----
+## Overview
+
 
 In this project, we will see how deep neural networks and convolutional neural networks are very very powerful to perform image classification tasks. Indeed, we train and validate a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, we will then try out your model on images of German traffic signs that we downloaded from the web.
 
-![alt text][internet_images] 
+![alt text][demo_new_images] 
 
 You will find the code - using Tensorflow - for this project is in the [IPython Notebook](https://github.com/itismouad/sdcnd_traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.ipynb). More details are available by reading the project [notes](https://github.com/itismouad/sdcnd_traffic_sign_classifier/blob/master/writeup.md).
 
  
-The final model architecture :
----
+## The final model architecture :
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -37,8 +36,7 @@ The final model architecture :
 | Fully connected		| 84 input, 43 output     				     	|
 
 
-The final model metrics :
----
+## The final model metrics :
 
 - Training Set Accuracy: 0.9764310717582703
 - Validation Set Accuracy: 0.9523809552192688
