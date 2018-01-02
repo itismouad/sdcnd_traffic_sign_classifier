@@ -46,9 +46,9 @@ We will keep the same demo images throughout these notes for simplicity and to m
 
 ![alt text][demo_original]
 
-The quality of the pictures are very variable : pictures are not all centered, they do nor have the same brightness, they do not have the same quality, etc.
+The quality of the pictures are very variable : pictures are not all centered, they do not have the same brightness, they do not have the same quality, etc.
 
-Moreover, if we look at the distribution of the classes, we realize that our dataset is extremly imbalanced. Some of the classes have nearly 7x as much training examples as the least  represented class. We will fix this issue later by performing dataset augmentation but let's focus on the pre-processing steps for now.
+Moreover, if we look at the distribution of the classes, we realize that our dataset is extremly imbalanced. Some of the classes have nearly seven times as much training examples as the least  represented class. We will fix this issue later by performing dataset augmentation but let's focus on the pre-processing steps for now.
 
 ![alt text][original_dataset_dist]
 
@@ -91,7 +91,7 @@ Images after rescaling transformation :
 ![alt text][demo_rescaled]
 
 
-At this point, the distribution of our classes is completely modified. The number of training examples increases from `34799` to `46714`. See below teh new distribution :
+At this point, the distribution of our classes is completely modified. The number of training examples increases from `34799` to `46714`. See below the new distribution :
 
 ![alt text][augmented_dataset_dist]
 
@@ -147,7 +147,7 @@ I plotted the top 5 predictions (based on softmax probabilities) for the 6 diffe
 ![alt text][class_prob2]
 ![alt text][class_prob3]
 ![alt text][class_prob4]
-![alt text][class_prob05]
+![alt text][class_prob5]
 
 From the charts above, we can see that the model is very good at identifying any traffic sign. The probabilities are very high (greater than 90% in most of the cases).
 
@@ -171,7 +171,7 @@ Deep convolutional neural networks are mind-blowing when it comes to visual reco
 I plan in the next steps to : 
 
 - further tune the hyperparameters
-- visualizing the Neural Network layers outputs to understand how the model classify in practice the images
+- visualizing the Neural Network layers outputs to understand how the model classifies in practice the images
 - explore more achitectures
 
 Thank you for reading. ✌️
