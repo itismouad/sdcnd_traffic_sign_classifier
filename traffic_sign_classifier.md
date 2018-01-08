@@ -3,7 +3,7 @@
 
 In this project, we will see how deep neural networks and convolutional neural networks are very very powerful to perform image classification tasks. Indeed, we train and validate a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, we will then try out your model on images of German traffic signs that we downloaded from the web.
 
-You will find the code - using Tensorflow - for this project is in the [IPython Notebook](https://github.com/itismouad/sdcnd_traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.ipynb). An HTML version of the file is also available for visualizing the results.
+You will find the code - using Tensorflow - for this project is in the [IPython Notebook](https://github.com/itismouad/traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.ipynb). An HTML version of the file is also available for visualizing the results.
 
 
 [//]: # (Source Images)

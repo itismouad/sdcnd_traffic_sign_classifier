@@ -13,7 +13,7 @@ In this project, we will see how deep neural networks and convolutional neural n
 
 ![alt text][demo_new_images] 
 
-You will find the code - using Tensorflow - for this project is in the [IPython Notebook](https://github.com/itismouad/sdcnd_traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.ipynb). More details are available by reading the project [notes](https://github.com/itismouad/sdcnd_traffic_sign_classifier/blob/master/writeup.md).
+You will find the code - using Tensorflow - for this project is in the [IPython Notebook](https://github.com/itismouad/traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.ipynb). More details are available by reading the project [notes](https://github.com/itismouad/traffic_sign_classifier/blob/master/traffic_sign_classifier.md).
 
  
 
